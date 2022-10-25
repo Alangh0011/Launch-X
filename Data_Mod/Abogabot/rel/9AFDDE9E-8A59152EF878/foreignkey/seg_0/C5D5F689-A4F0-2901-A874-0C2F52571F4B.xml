@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5D5F689-A4F0-2901-A874-0C2F52571F4B" containerWithKeyObject="48F6FD56-BCAC-F47F-CD41-B0C0A7FAC3A3" localFKIndex="5C93A090-EF3A-8062-F9B3-E8C68C07311B" name="Solicitud_Solicitante_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>A9685344-22F6-40BA-2B80-ACC66F1317B6</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<referredTableLongName>Solicitante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8CD9AD48-A68A-BE6F-94B2-C9B289409BB1</referredTableID>
+<keyObject>455C3071-8BC8-81F0-4D14-D3DD3D23A4B4</keyObject>
+<referredKeyID>455C3071-8BC8-81F0-4D14-D3DD3D23A4B4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Solicitante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

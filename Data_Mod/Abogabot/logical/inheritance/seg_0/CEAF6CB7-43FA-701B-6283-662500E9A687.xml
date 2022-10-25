@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="CEAF6CB7-43FA-701B-6283-662500E9A687">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:42:21 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>4960740D-DAEE-49CE-98F2-7B2019BFB1B5</sourceEntity>
+<targetEntity>53121BF0-C71D-C411-FC50-7FD95FFB8B8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

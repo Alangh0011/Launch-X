@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C76B1C1-1BC3-DCB8-B776-E977CFAAD43E" name="Persona">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>4960740D-DAEE-49CE-98F2-7B2019BFB1B5</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_ID" id="39E2A539-218D-A9BA-A0D7-F84F0A5B235A">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Nombre" id="FDDDD006-4212-586D-BA8F-60055F19DD7D">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>52513F25-F4E6-DE9E-0E02-176AC8E51540</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="42F4E040-635A-369C-8A80-63527F634ADA">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>AEFB8A35-BA94-1276-7BCC-FB05D43AAF36</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F9ECDCB-EABB-8601-E051-7AB2268DF3E8" name="Persona_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="39E2A539-218D-A9BA-A0D7-F84F0A5B235A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

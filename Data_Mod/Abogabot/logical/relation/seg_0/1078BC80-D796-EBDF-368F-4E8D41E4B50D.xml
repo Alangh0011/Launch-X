@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asigna" directorySegmentName="seg_0" id="1078BC80-D796-EBDF-368F-4E8D41E4B50D">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:28:33 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<sourcePk>10F64519-30D2-DC1F-1554-C41D9E1E7EA9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AC5FC97-6466-3F31-4837-D517D248682E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>53121BF0-C71D-C411-FC50-7FD95FFB8B8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Fecha_Asig" id="FA066D6E-4174-5BDE-22E2-ABC77A4D2995">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:28:50 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4770AC5B-8554-A02E-3193-7636437BD59A" name="Efectivo">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>55D599B0-9085-2965-155F-C3F6FC82241C</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CP" id="B64AC07B-03D2-676C-E3CE-C2A70C175482">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>78183B28-C53C-463A-20EE-F158A9299DBA</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A77BA93-3070-1E86-7F2E-6590C11EB7BA" referredColumn="274C553A-D792-6C82-4CD2-C2E0126616F0"/>
+</associations>
+</Column>
+<Column name="Folio" id="3E39A3D8-2BE0-1368-DAFF-4569A78DEC59">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>447C4752-A9E4-40B7-0FAD-8A125C76540D</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="45374BE8-CC63-1D36-7AE0-CC4C69803906">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>A4F6C2AB-3B53-42CF-AFB4-65A9CE715ABB</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Folio_Vla" id="28F4DD3F-0D1E-C959-DF4F-EA3160E2B65A">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>A8768B25-1BE3-A5CA-3021-DA4347DC2D7F</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="95096A8D-0B7D-8FEC-EA9B-DA9ECFB46BBF">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>E3F8E895-0736-3876-6011-CB8B9E66E9D0</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7269251-D05E-596E-B3F9-298A5C6CFF15" name="Efectivo_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>BB008561-C49C-10A4-3049-B589BCF3E82C</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B64AC07B-03D2-676C-E3CE-C2A70C175482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="978A6774-2715-B907-883A-431CF3F8D4D8" name="Efectivo_PKv1">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>4E0CAEC6-A5AE-F6AE-0BA9-B12215AC5BEE</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E39A3D8-2BE0-1368-DAFF-4569A78DEC59"/>
+<colUsage columnID="95096A8D-0B7D-8FEC-EA9B-DA9ECFB46BBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BC11EFF-4CA0-0904-93DE-1A5581A9B7E5" name="Efectivo_Pago_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>4433056C-A92D-BBC7-186D-EFA3AC250ECF</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B64AC07B-03D2-676C-E3CE-C2A70C175482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

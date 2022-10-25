@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="750EF260-A054-188A-3937-861411777CB9" name="Manda">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Trabajadores_Persona_Persona_ID" id="9EAA4DCC-D981-96E2-4CC3-484082EB1039">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C09BC980-D449-4A0C-4570-23DAD5E65554" referredColumn="F55BB23C-DAB4-B9A9-659C-E862C154BCC2"/>
+</associations>
+</Column>
+<Column name="Solicitante_Persona_Persona_ID" id="044E298F-7963-B446-D914-5BE4F0D75C79">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B3F8A1E-8BE9-79B1-3A73-99D70F2ADD22" referredColumn="36A3C9DD-51F4-8ECA-A70F-6C33B4BDE1A1"/>
+</associations>
+</Column>
+<Column name="Estatus" id="1A698DD2-D794-5415-1E7D-6D3EE97C5F25">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>86A91CC8-0789-B841-3A72-DF5E95BBE32A</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="Comentarios" id="2D8A6F5F-7B19-240A-4314-B8C6486F1474">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>5648A9DE-446A-9871-4ABB-62A82824B13E</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7F1C62F-0C34-0628-5E95-59CD91F6F000" name="Relation_5_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EAA4DCC-D981-96E2-4CC3-484082EB1039"/>
+<colUsage columnID="044E298F-7963-B446-D914-5BE4F0D75C79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82ADD5FC-0571-0AD1-C8C5-1225AE4563C5" name="Relation_5_Trabajadores_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>F7923A25-79F8-092E-5C50-554B884687E4</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EAA4DCC-D981-96E2-4CC3-484082EB1039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCB9A29B-7AC1-4225-ADA7-2123E652604C" name="Relation_5_Solicitante_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>F7923A25-79F8-092E-5C50-554B884687E4</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044E298F-7963-B446-D914-5BE4F0D75C79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

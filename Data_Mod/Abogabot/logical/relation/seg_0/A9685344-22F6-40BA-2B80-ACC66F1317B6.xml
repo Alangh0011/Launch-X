@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realiza" directorySegmentName="seg_0" id="A9685344-22F6-40BA-2B80-ACC66F1317B6">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:55:47 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<sourcePk>24C4FDF9-514B-EE6A-0B16-7572F4385C15</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>08919C89-08D9-50EE-64B5-FEACD7709125</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5FC0EFF-2F34-DAD5-6E61-F81952633375</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Fecha_Sol" id="89BE8D26-A5F7-0CDB-8170-37571671A16A">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:56:43 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

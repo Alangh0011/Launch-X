@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="08919C89-08D9-50EE-64B5-FEACD7709125" name="Solicitante">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:06:36 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4960740D-DAEE-49CE-98F2-7B2019BFB1B5</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Telefono" id="1EA9AE55-3989-ABA6-6FB1-6277497737F3">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:07:08 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sexo" id="DC05E185-FE1A-6D24-9E2B-7019A60E816A">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:12:11 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Solicitante" id="A419C438-713A-265B-AC7D-AA5A85E9B642">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:12:53 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="E5DEC603-659D-E3AC-7C7B-5B2BC929FD9D">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:14:40 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_nac" id="16DB4D97-03DD-9C6F-281D-264E3AFD6CED">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:17:09 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edad" id="FF53149A-9BA3-0087-5A38-F12BAE1366F3">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:19:32 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="6383899E-C6E5-A1DB-13C5-1EEA0F0AB75F">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:20:55 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24C4FDF9-514B-EE6A-0B16-7572F4385C15" name="Solicitante PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:13:12 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A419C438-713A-265B-AC7D-AA5A85E9B642</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

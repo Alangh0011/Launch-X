@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5FC0EFF-2F34-DAD5-6E61-F81952633375" name="Solicitud">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:51:02 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="V_Com_Civ" id="DC04AC3C-F334-8F6E-C375-9ADBF10F5F6C">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:51:13 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Desc_Prob" id="F9FD5109-AF17-D524-807C-F9FF49E88088">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:52:08 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Domicilio" id="551B7691-D249-2F33-7700-875B5C36C122">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:52:48 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Curp" id="6607C007-9C8C-3A03-39E1-681F6F6FF07B">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:53:16 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 CHAR</dataTypeSize>
+<ownDataTypeParameters>18 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Solicitante" id="7EC1CE67-F59C-9496-FD78-E18139FC8DA6">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:55:47 UTC</createdTime>
+<generatorID>A9685344-22F6-40BA-2B80-ACC66F1317B6</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<referedAttribute>A419C438-713A-265B-AC7D-AA5A85E9B642</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CP" id="CBE74019-A3D4-5E77-398F-5E17391798E2">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:17:30 UTC</createdTime>
+<generatorID>008B1DA0-C1F2-6361-DE1B-96DE8DDABC8C</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<referedAttribute>78183B28-C53C-463A-20EE-F158A9299DBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95A149D4-7CE3-B639-C2DD-BED09890DE1E" name="Solicitud PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:51:27 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC04AC3C-F334-8F6E-C375-9ADBF10F5F6C</attributeRef>
+<attributeRef>F9FD5109-AF17-D524-807C-F9FF49E88088</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

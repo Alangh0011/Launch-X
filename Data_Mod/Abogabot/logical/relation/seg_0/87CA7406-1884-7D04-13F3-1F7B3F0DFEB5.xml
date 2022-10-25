@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Recibe" directorySegmentName="seg_0" id="87CA7406-1884-7D04-13F3-1F7B3F0DFEB5">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:27:30 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<sourcePk>10F64519-30D2-DC1F-1554-C41D9E1E7EA9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AC5FC97-6466-3F31-4837-D517D248682E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5D784C32-D2D1-0C12-BF8D-2D7251A18E81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

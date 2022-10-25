@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF6864A2-5891-BA01-4A69-96F902884E44" containerWithKeyObject="30C84BBD-182D-C4DD-C226-0A2FA71C2DC9" localFKIndex="861B797D-A0A1-A105-ADFD-60DC35B256C9" name="Pago_Solicitud_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>008B1DA0-C1F2-6361-DE1B-96DE8DDABC8C</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<referredTableLongName>Solicitud</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48F6FD56-BCAC-F47F-CD41-B0C0A7FAC3A3</referredTableID>
+<keyObject>43F18132-D046-0E9A-8BC1-2EE863DC7CB6</keyObject>
+<referredKeyID>43F18132-D046-0E9A-8BC1-2EE863DC7CB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>V_Com_Civ,Desc_Prob</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

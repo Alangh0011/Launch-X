@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53121BF0-C71D-C411-FC50-7FD95FFB8B8B" name="Trabajadores">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:38:25 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4960740D-DAEE-49CE-98F2-7B2019BFB1B5</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Trabajador" id="8CF19ED2-63AE-A7D9-CC19-CEDFB07DCB34">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:40:11 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Sol" id="26C1464B-48AE-1EBC-6114-3B73DEA8D232">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:40:26 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Adm" id="D546D178-AB3C-C841-5B2F-77B992D5B82D">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:28:33 UTC</createdTime>
+<generatorID>1078BC80-D796-EBDF-368F-4E8D41E4B50D</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<referedAttribute>CCBFA40F-330B-97CC-1370-53EEFC00AE86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58032576-AE3A-284B-4B10-284963D15A37" name="Trabajadores PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 04:40:25 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CF19ED2-63AE-A7D9-CC19-CEDFB07DCB34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

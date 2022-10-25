@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90DF6E29-50E3-9EE6-0D8E-5DC7F5DF31A9" name="Credito">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>962FDCD5-825E-C4D7-374F-79C74A93CDC6</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CP" id="AB640D63-9B12-0EA3-B850-4E9A105E40C0">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>78183B28-C53C-463A-20EE-F158A9299DBA</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFCE628A-B07B-99DD-6039-E8D939EFE270" referredColumn="274C553A-D792-6C82-4CD2-C2E0126616F0"/>
+</associations>
+</Column>
+<Column name="Nombre" id="BECF84F3-2923-209F-60A5-893C8AA1F794">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>DAE76868-B609-1B6D-CB8A-008122A66F95</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Tarjeta" id="564060CC-6D44-F509-48DC-4499569FD273">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>8D733F79-59A5-A905-8A6E-93F05E0B719F</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CVC" id="FD90F1A8-AE64-9265-E743-9F6467E2031B">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>B5907735-DD43-C1B3-D0A3-3AAC0000E0E1</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_cad" id="F388F9EB-8896-AFC5-C93B-CF3D2C38D159">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>0FD0C90F-12B9-DFF5-A76B-FD6FD6101933</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16644FF8-44B5-7462-1E1F-2BAAD56DD9B1" name="Credito_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>BB008561-C49C-10A4-3049-B589BCF3E82C</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB640D63-9B12-0EA3-B850-4E9A105E40C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85EB3BC-247E-80DF-737D-900EECAA168E" name="Credito_PKv1">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>CBAE4E4B-6BE8-1C27-69E5-3B3F6312FC30</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="564060CC-6D44-F509-48DC-4499569FD273"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="262AD2D6-15D3-BE3F-3F5A-5C972D45F86C" name="Credito_Pago_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>87ACE545-385D-021E-D13C-B17090177C63</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB640D63-9B12-0EA3-B850-4E9A105E40C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

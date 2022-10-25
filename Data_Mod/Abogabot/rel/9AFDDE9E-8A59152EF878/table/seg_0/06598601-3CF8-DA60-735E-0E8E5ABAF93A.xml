@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06598601-3CF8-DA60-735E-0E8E5ABAF93A" name="Trabajadores">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>53121BF0-C71D-C411-FC50-7FD95FFB8B8B</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_Persona_ID" id="F55BB23C-DAB4-B9A9-659C-E862C154BCC2">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA3695A9-0136-6F3C-552C-3B566CD20132" referredColumn="39E2A539-218D-A9BA-A0D7-F84F0A5B235A"/>
+</associations>
+</Column>
+<Column name="Id_Trabajador" id="F6AFD277-59F1-7634-A826-70EE8E1BE849">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>8CF19ED2-63AE-A7D9-CC19-CEDFB07DCB34</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Sol" id="5365F8C4-8AAE-6515-CB8A-F1AE0258F4F8">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>26C1464B-48AE-1EBC-6114-3B73DEA8D232</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Administrador_Id_Adm" id="8992E29D-310C-FCAF-11EE-3D000ED0DFFB">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>D546D178-AB3C-C841-5B2F-77B992D5B82D</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36748E75-A768-FB22-D1E9-DA83AEEA19E9" referredColumn="96BD7DD0-9675-44F7-A5E8-5DEA0C7A6060"/>
+</associations>
+</Column>
+<Column name="Fecha_Asig" id="2EA4E3A5-61A7-88DA-0446-5DE4845B49C5">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>FA066D6E-4174-5BDE-22E2-ABC77A4D2995</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>36748E75-A768-FB22-D1E9-DA83AEEA19E9</dependOnForeignKeyID>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F9302F9-30B4-29B5-5634-C46DA2D355D6" name="Trabajadores_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F55BB23C-DAB4-B9A9-659C-E862C154BCC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="661A6737-2837-0E85-94CB-F3054D48C8D8" name="Trabajadores_Id_Trabajador_UN">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:02 UTC</createdTime>
+<generatorID>58032576-AE3A-284B-4B10-284963D15A37</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6AFD277-59F1-7634-A826-70EE8E1BE849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9622BDC-529D-954B-3826-487801BC7342" name="Trabajadores_Persona_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>CEAF6CB7-43FA-701B-6283-662500E9A687</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55BB23C-DAB4-B9A9-659C-E862C154BCC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5D5378B-4540-D8C9-48D5-AD388858B3AC" name="Trabajadores_Administrador_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:38:03 UTC</createdTime>
+<generatorID>1078BC80-D796-EBDF-368F-4E8D41E4B50D</generatorID>
+<ownerDesignName>Abogabot</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8992E29D-310C-FCAF-11EE-3D000ED0DFFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

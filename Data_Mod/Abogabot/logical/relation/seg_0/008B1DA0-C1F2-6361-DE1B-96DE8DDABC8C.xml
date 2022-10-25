@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realizav2" directorySegmentName="seg_0" id="008B1DA0-C1F2-6361-DE1B-96DE8DDABC8C">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:17:20 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<sourcePk>95A149D4-7CE3-B639-C2DD-BED09890DE1E</sourcePk>
+<targetPk>BB008561-C49C-10A4-3049-B589BCF3E82C</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5FC0EFF-2F34-DAD5-6E61-F81952633375</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5D784C32-D2D1-0C12-BF8D-2D7251A18E81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

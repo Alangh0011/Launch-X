@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Manda" directorySegmentName="seg_0" id="F7923A25-79F8-092E-5C50-554B884687E4">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:30:02 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>53121BF0-C71D-C411-FC50-7FD95FFB8B8B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08919C89-08D9-50EE-64B5-FEACD7709125</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Estatus" id="86A91CC8-0789-B841-3A72-DF5E95BBE32A">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:30:11 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Comentarios" id="5648A9DE-446A-9871-4ABB-62A82824B13E">
+<createdBy>user</createdBy>
+<createdTime>2022-10-23 05:30:39 UTC</createdTime>
+<ownerDesignName>Abogabot</ownerDesignName>
+<engineerTo>
+<item key="9AFDDE9E-E07C-83E9-48BD-8A59152EF878" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
